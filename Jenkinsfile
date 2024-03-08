@@ -7,8 +7,8 @@ pipeline {
             steps {
                 // Change directory to the cloned repository
 
-                    sh 'chmod +x your_script.sh' // Make the script executable if necessary
-                    sh './your_script.sh' // Execute the script
+                    sh 'chmod +x script.sh' // Make the script executable if necessary
+                    sh './script.sh' // Execute the script
                 
 
             }
