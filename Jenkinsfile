@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Checkout code from GitHub repository
-                git branch: 'master', url: 'https://github.com/rozkurt54/cluster-backup.git'
+                git branch: 'main', url: 'https://github.com/rozkurt54/cluster-backup.git'
             }
         }
         
